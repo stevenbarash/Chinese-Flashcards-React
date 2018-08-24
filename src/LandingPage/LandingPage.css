@@ -1,0 +1,81 @@
+html {
+  /* background-color: black; */
+  /* overflow: hidden; */
+}
+.first-item {
+  margin-top: -33px;
+  background-image: url('http://imgur.com/DxcUZkY.jpg');
+  background-position: bottom;
+}
+.second-item {
+  background-image: url('http://imgur.com/9DSB0Dn.jpg');
+  background-size: 1200px;
+  background-position: left;
+}
+.third-item {
+  background-color: slategray;
+}
+/* .nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 1000%;
+  z-index: 99;
+} */
+.mockup {
+}
+.banner-inner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+@media screen and (max-width: 480px) {
+  .jumbotron {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 60px;
+    margin-left: 0px;
+    background-color: transparent;
+    overflow: hidden;
+  }
+}
+
+/* 
+.image-container {
+  height: 300px;
+  width: 300px;
+} */
+.lander-top {
+  /* overflow: hidden; */
+  background-color: #e53935;
+}
+
+.container {
+  /* justify-content: center;
+  align-content: center;
+  align-items: center; */
+  /* justify-items: center; */
+}
+
+
+
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+    margin-top: 65px;
+    margin-left: 100px;
+    background-color: transparent;
+    overflow: hidden;
+    /* padding: 20vw; */
+  }
+  /*.jumbotron {*/
+    /*margin-top: 0px;*/
+  /*}*/
+  .great-wall {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+}

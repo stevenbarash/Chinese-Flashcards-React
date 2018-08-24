@@ -1,0 +1,27 @@
+.btn-group {
+  overflow: hidden;
+}
+.toCenter {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+h3 {
+  text-decoration: underline;
+}
+.profilePic {
+  margin-top: 75px;
+  width: 200px;
+  height: 200px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.missed-card {
+  width: 300px;
+  height: 300px;
+}
